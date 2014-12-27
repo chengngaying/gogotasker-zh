@@ -1,0 +1,184 @@
+/*
+Free Html5 Responsive Templates
+Author: Kimmy Tran
+Author URI: http://www.zerotheme.com/
+*/
+html {
+   -webkit-text-size-adjust: none;
+	min-width: 320px;
+}
+.video embed,
+.video object,
+.video iframe {
+   width: 100%;
+   height: auto;
+}
+img{
+	max-width:100%;
+	height: auto;
+   	width: auto\9; /* ie8 */
+}
+
+/*------------------------*/
+
+@media only screen and (max-width: 959px) {
+}
+@media only screen and (max-width: 820px){
+	.slider_wrapper {height: 350px;}
+	.slider_wrapper h2{font-size: 40px;}
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+	
+	.slider_wrapper h2{font-size: 25px;}
+	.sf-menu>li>a{
+		font-size: 14px;
+		line-height: 20px;
+		padding: 8px 8px 6px;
+	}
+	h1 {padding-top: 68px;}
+
+
+	header h1 {
+		padding-top: 0;
+	}
+	header h1 a {
+		width: 38px;
+		height: 40px;
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding-top: 0px; 
+		padding-left: 10px; 
+	}
+
+	header h1 a img {
+		display: block;
+		width: 120px;
+		height: auto;
+		max-width: none;
+	}
+}
+
+
+/*@media only screen and (max-width: 420px) {
+	.sf-menu>li>a{
+		font-size: 13px;
+		line-height: 16px;
+		padding: 6px 6px 4px;
+	}
+	h1 {padding-top: 30px;}
+}*/
+
+
+
+/* Mart's naughty Edits */
+@media only screen and (max-width: 720px) {
+
+	.sf-menu>li>a{
+		font-size: 14px;
+		line-height: 20px;
+		padding: 8px 8px 6px;
+	}
+
+/*	header h1 {
+		padding-top: 0;
+	}
+	header h1 a {
+		width: 50px;
+		height: 40px;
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding-top: 0px; 
+		padding-left: 10px; 
+	}
+
+	header h1 a img {
+		display: block;
+		width: 170px;
+		height: auto;
+		/*max-width: none;
+	}*/
+}
+
+/* header menu how large or small*/
+.sf-menu>li .nottiny {}
+
+.sf-menu>li .tiny {
+	display: none;
+}
+
+@media screen and (max-width: 420px){
+	
+	.slider_wrapper h2{font-size: 25px;}
+	.sf-menu>li>a{
+		font-size: 10px;
+		line-height: 20px;
+		padding: 8px 6px 6px;
+	}
+	h1 {padding-top: 68px;}
+
+
+	header h1 {
+		padding-top: 0;
+	}
+	header h1 a {
+		width: 38px;
+		height: 40px;
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding-top: 0px; 
+		padding-left: 10px; 
+	}
+
+	header h1 a img {
+		display: block;
+		width: 120px;
+		height: auto;
+	}
+
+	h3 {
+		font-size: 30px;
+	}
+	p, dl {
+		font-size:80%;
+	}
+}
+
+
+@media only screen and (max-width: 350px) {
+
+	header h1 {
+		padding-top: 0;
+	}
+	header h1 a {
+		width: 27px;
+		height: 20px;
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding-top: 6px;
+		padding-left: 5px;
+	}
+
+	header h1 a img {
+		height: 20px;
+		width: initial;
+	}
+
+	h3 {
+		font-size: 30px;
+	}
+	p, dl {
+		font-size:80%;
+	}
+}
